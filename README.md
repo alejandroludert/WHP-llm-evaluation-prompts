@@ -7,13 +7,13 @@ The dataset consists of prompts referencing various aspects of Harry Potter lore
 
 The dataset is stored as a CSV file (data/WHP_evaluation_prompts.csv) and includes the following columns:
 
-Prompt_Id: A unique identifier for each prompt.
-Reference: Idiosyncrasies unique to Harry Potter that the prompt references.
-Prompt: The text input given to the model for completion.
-Subtlety: A score (0-10) measuring how subtle the prompt is (0 = very subtle, 10 = very clear).
-Source: The model that generated the prompt.
-collected_on: The date the prompt was generated.
-generating_mechanism: How the prompt was generated (e.g., via UI or batch API).
+- Prompt_Id: A unique identifier for each prompt.
+- Reference: Idiosyncrasies unique to Harry Potter that the prompt references.
+- Prompt: The text input given to the model for completion.
+- Subtlety: A score (0-10) measuring how subtle the prompt is (0 = very subtle, 10 = very clear).
+- Source: The model that generated the prompt.
+- collected_on: The date the prompt was generated.
+- generating_mechanism: How the prompt was generated (e.g., via UI or batch API).
 
 ## Usage
 
